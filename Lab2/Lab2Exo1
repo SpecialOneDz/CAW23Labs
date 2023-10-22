@@ -1,13 +1,13 @@
 ## Get started with Git ##
 
 1- Create a folder called earn_git
-$ mkdir earn_git
-
+``` $ mkdir earn_git ```
+ 
 2- Navigate to the earn_git folder.
-$ cd earn_git
+```$ cd earn_git```
 
 3- Create a file called three.txt.
-$ touch three.txt
+```$ touch three.txt```
 
 4- Initialize an empty Git repository:
 $ git init
