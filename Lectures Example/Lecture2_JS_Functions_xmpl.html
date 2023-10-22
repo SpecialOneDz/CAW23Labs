@@ -1,0 +1,16 @@
+<html> 
+<body onload="verifier_age()" style="position:absolute"> 
+<h1>My home page</h1> 
+<script> 
+var x; 
+function verifier_age(){ 
+if (age_of_user() < 18) alert("Please go to another page."); 
+} 
+function age_of_user(){ 
+var age_text, age; 
+age_text=prompt("How old are you??"); 
+age=parseInt(age_text); 
+ return age; } 
+</script> 
+</body> 
+</html>

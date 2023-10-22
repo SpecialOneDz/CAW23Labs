@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>DOM-related events</title> 
+<body>
+<button>Click Me</button>	
+<p>No one has clicked on me yet!</p> 
+<script> 
+//1 display a message on the console when a button is clicked
+var b = document.querySelector("button"); 
+b.addEventListener("click", function() { 
+console.log("SOMEONE CLICKED THE BUTTON!"); }); 
+ 
+//2 Display a message in a paragraph when a button is clicked 
+var button = document.querySelector("button"); 
+var paragraph = document.querySelector("p"); 
+button.addEventListener("click", function() { 
+paragraph.textContent = "SOMEONE CLICKED THE BUTTON!"; }); 
+</script>
+</body> 
+</html>
