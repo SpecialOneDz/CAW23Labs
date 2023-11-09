@@ -1,10 +1,14 @@
-class Car extends React.Component {
+
+// Class components
+class FreePalestine extends React.Component {
     render() {
-      return <h2>Hi, I am a Car!</h2>;
+      return <h2>Palestine, will be FREE!</h2>;
     }
   }
 
-
-  function Car() {
-    return <h2>Hi, I am a Car!</h2>;
+// Functional components 
+  function FreePalestine() {
+    return <h2>Palestine, will be FREE!</h2>;
   }
+
+  
