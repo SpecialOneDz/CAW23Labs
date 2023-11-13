@@ -11,6 +11,8 @@
     "cat-me": "^1.0.3",
     "fs": "^0.0.1-security"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
   "description": ""
 }
